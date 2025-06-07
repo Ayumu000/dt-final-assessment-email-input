@@ -34,7 +34,7 @@ function EmailComponent({ emails }) {
       return;
     }
 
-    setEmails((prev) => [...prev, clicked_value.trim()]);
+    setEmails((prev) => [...prev, clicked_value]);
     set_results([]);
     set_input_value("");
   };
